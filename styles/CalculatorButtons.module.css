@@ -1,0 +1,17 @@
+.Main {
+  margin: auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.button {
+  height: 100px;
+  cursor: pointer;
+  background-color: wheat;
+  border: 1px solid rgb(255, 97, 123);
+  font-size: 40px;
+}
+.button:hover {
+  background-color: rgb(245, 212, 151);
+  scale: 1.02;
+}
