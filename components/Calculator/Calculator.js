@@ -1,10 +1,13 @@
 import CalculatorButtons from "./CalculatorButtons";
-import Operations from "./operations";
+import Output from "./Output";
+import { CalcuProvider } from "./CalculatorContext";
 function Calculator() {
   return (
     <div>
-      <CalculatorButtons />
-      
+      <CalcuProvider>
+        <Output />
+        <CalculatorButtons />
+      </CalcuProvider>
     </div>
   );
 }
