@@ -10,7 +10,7 @@ function Header() {
         <Link href="/calculator">
           <a className={Style.link}>Calculator</a>
         </Link>
-        <Link href="/">
+        <Link href="/rickandmorty">
           <a className={Style.link}>Rick And Morty</a>
         </Link>
       </nav>
